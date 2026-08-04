@@ -1,0 +1,22 @@
+{
+  "name": "recreate-again-cli",
+  "version": "0.1.0",
+  "description": "A minimal CLI tool accepting the literal command 'recreate again' as a reusable stub.",
+  "type": "module",
+  "bin": {
+    "recreate": "bin/recreate.js"
+  },
+  "scripts": {
+    "start": "node bin/recreate.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "cli",
+    "command-line",
+    "stub"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
